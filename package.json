@@ -1,0 +1,16 @@
+{
+  "name": "new-github-dark",
+  "version": "2.0.0",
+  "description": "Dark GitHub theme v2 for Stylish",
+  "license": "CC-BY-SA-4.0",
+  "repository": "StylishThemes/New-GitHub-Dark",
+  "homepage": "https://userstyles.org/styles/37035/github-dark",
+  "devDependencies": {
+    "stylelint": "^7.2.0",
+    "stylelint-config-standard": "^13.0.0"
+  },
+  "scripts": {
+    "stylelint": "stylelint",
+    "test": "stylelint github-dark.css"
+  }
+}
