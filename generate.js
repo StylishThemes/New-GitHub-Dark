@@ -40,8 +40,7 @@ async.map(sites, getDeclarations, function(err, results) {
 
   // write out individual files
   results.forEach(function(result) {
-    const name = result.site.replace(/^https?:\/\//, "") + ".css";
-    const file = path.join(__dirname, "sites", name);
+    const file = path.join(__dirname, "sites", result.site + ".css");
     fs.writeFileSync(file, result.css);
   });
 

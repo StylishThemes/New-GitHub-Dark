@@ -10,10 +10,8 @@
     "stylelint-config-standard": "^16.0.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "eslint": "eslint --quiet --color *.js",
-    "stylelint": "stylelint --silent --color *.css",
-    "perfectionist": "perfectionist",
+    "start": "node --trace-warnings generate.js",
+    "lint": "eslint --quiet --color *.js && stylelint --silent --color *.css",
     "test": "stylelint github-dark.css"
   },
   "dependencies": {
