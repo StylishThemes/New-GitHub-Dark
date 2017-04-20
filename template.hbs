@@ -1,0 +1,20 @@
+@-moz-document regexp("^https?://((gist|guides|help|raw|status|developer)\.)?github\.com((?!generated_pages\/preview).)*$"), domain("githubusercontent.com") {
+  @-moz-documemt domain("github.com") {
+    {{{this.[github.com]}}}
+  }
+  @-moz-document domain("gist.github.com") {
+    {{{this.[gist.github.com]}}}
+  }
+  @-moz-document domain("guides.github.com") {
+    {{{this.[guides.github.com]}}}
+  }
+  @-moz-document domain("help.github.com") {
+    {{{this.[help.github.com]}}}
+  }
+  @-moz-document domain("status.github.com") {
+    {{{this.[status.github.com]}}}
+  }
+  @-moz-document domain("developer.github.com") {
+    {{{this.[developer.github.com]}}}
+  }
+}
