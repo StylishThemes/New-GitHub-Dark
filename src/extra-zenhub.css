@@ -1,0 +1,238 @@
+/* ZenHub - https://github.com/ZenHubIO/API */
+.zhc-selection-item:hover, .zhc-selection-item--is-active,
+.zhc-selection-item.zhc-selection-item--is-active:not(.zhc-selection-item--is-disabled),
+.zh-select-menu-item.navigation-focus, .zh-select-menu-item:hover,
+.zhc-dropdown-simple-item:hover, .zhc-checkbox-toggle--is-active:before,
+.zhc-board-settings-item:hover, .zhc-tabs__nav-item:hover,
+li.zhc-tabs__nav-item--active {
+  background: var(--base-color) !important;
+  border-color: var(--base-color) !important;
+  color: #fff !important;
+}
+.zhc-pipeline-sort-status__clear, .zhc-pipeline__load-more {
+  color: var(--base-color) !important;
+}
+.zhc-dependency-type-dropdown--is-open .zhc-dependency-type-dropdown__control {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+/* background */
+.zhc-pipeline, .zh-epic-creator-top, .zh-epic-creator-nav, input.zhc-icon,
+.zhc-item-table__header, .zhc-item-table__cell, .zhc-search,
+.zhc-selection-list__header, .zhc-burndown .zhc-menu-container__modal-content {
+  background-color: transparent !important;
+}
+.zhc-pipeline__body, .zhc-board--is-fullscreen, .zh-epic-issue-progress-bar,
+.zhc-board-loading__message, .zhc-pipeline--is-collapsed, .zhc-issue-card,
+.zh-todo-item-placeholder, .zh-timeline-comment, .zh-epic-creator-tab,
+.zh-issueviewer-content, .zhc-chart-container, tr.zhc-item-table__row--closed,
+.zhc-sidebar__container, .zhc-sidebar__container__inner {
+  background: #111 !important;
+  border-color: #484848 !important;
+}
+.zhc-pipeline-header, .zh-burndown-chart-container,
+.zh-burndown-chart .stats-container, .zh-issue-list .table-list-item,
+.zh-todopage-main .zh-todolist-today, .zh-todo-item, .zh-todo-empty-inbox,
+.zh-todo-empty-today, .zh-todo-empty-list, .zh-epic-issue-list-container,
+.zh-epic-creator-tab.selected, .zh-epic-creator-issue-list, .popover,
+.zh-epic-issue-list-container li, .zh-epic-creator-issue-list li,
+.full-screen-project-header, .dashboard-notice, .zhu-blankslate,
+.zhc-dependency, .zhc-dependency-banner, .zhc-selection-list__body,
+.zhc-selection-item, .zhc-issues-list-item, .zhc-tag, .zhc-item-table,
+.zhc-item-table__row, .zhc-menu-container__modal-content,
+.zhc-chart-info__wrapper, .zh-collapse-control:hover {
+  background: #181818 !important;
+  border-color: #484848 !important;
+}
+.zhc-issue-card__meta, .zhc-selection-filter, .zhc-tooltip-action__item,
+.zh-milestone-dates, .zh-epic-issue-list-footer, .zh-select-menu-header,
+.zh-todolist-box, .zh-todopage-main .zh-todolist-today,
+.zh-issue-list .table-list-title, .zh-epic-issue-list-container li:hover,
+.zh-epic-creator-issue-list li:hover, .zh-epic-creator-progress-bar,
+.zhc-tooltip-action__content, .zh-timeline-comment-header,
+.zh-issueviewer-title, .zh-new-issue-suggester-input-container,
+.zhc-pr-issue-connector__info, .zhu-tag-default, .zhc-chart-container__header,
+.zhc-issues-list__header, .zhc-toggleable--is-disabled,
+.zhc-item-table__row:hover, .zh-collapse-control__main-icon,
+.zhc-sidebar-profile {
+  background: #202020 !important;
+  border-color: #484848 !important;
+}
+.zhc-sidebar-nav-item--is-active, .zhc-sidebar-nav-item:hover,
+.zhc-sidebar-profile__toggle:hover {
+  background: #202020 !important;
+}
+.zhc-merge-repo-item:hover, .zhc-merge-repo-item--is-active,
+.zhc-badge--issue-count, .zhc-tooltip-action__item:hover,
+.zh-todolist-completed-separator, .zh-todolist-today-separator,
+.zh-epic-issue-list-item-badge .zh-pipeline-badge, .zh-pipeline-badge-light,
+.zhc-progress-bar, .zhc-dependency-type-dropdown__list__item,
+.zhc-chart-legend:after, .zhc-issues-list-item:hover, .zhc-btn--tint:hover,
+.zh-reports .zhc-btn:hover, .zhc-issue-selector .zhc-btn:hover,
+.zhc-dependency-header__status__controls .zhc-btn:hover,
+.zhc-sidebar-nav-item__action:hover, .zhc-sidebar-nav-item__action--is-active,
+.zhc-reports-nav-item__sub-item:hover, .zhc-sidebar-profile__item:hover,
+.zhc-sidebar-divider__bar {
+  background: #333 !important;
+}
+.zh-epic-creator-tab.selected, .zh-pipeline-badge-light {
+  border-top-color: var(--base-color) !important;
+  color: #ddd !important;
+}
+.zh-chart .weekend-band {
+  fill: rgba(34, 34, 34, .5) !important;
+}
+.zh-chart .horizonal-grid-line {
+  stroke: rgba(34, 34, 34, .5) !important;
+}
+.zhc-readonly-banner {
+  background: #182030 !important;
+}
+.zhc-progress-bar > .zhc-progress-bar--completed-issues {
+  background: #163 !important;
+}
+.zhc-selection-item--is-active .zhc-icon--board-light {
+  background-image: url("https://user-images.githubusercontent.com/3282350/27267371-e0aace98-5475-11e7-8b2f-dc774eaf5fd3.png") !important;
+}
+.zhc-dependency-type-dropdown__list {
+  background: none !important;
+}
+/* border */
+.zhc-pr-issue-connector__info:after {
+  border-right-color: #202020 !important;
+}
+.zhc-selection-item, .zhc-pipeline-header__actions, .zhc-pipeline,
+.zhc-pipeline--new-placeholder .zhc-pipeline__head, .zhc-merge-repo-item,
+.zh-todopage-menu, .zh-select-menu-item, .zh-epic-issue-list-container ul,
+.zh-epic-creator-nav, .zh-epic-creator-picker-container, .zh-board-menu,
+.zh-epic-creator-filters, .zh-epic-issues-picker-new-issue, .merge-status-list,
+.zhc-dropdown-simple-item, .zhc-pipeline-body, .zhc-board-settings-head,
+.zhc-pipeline-sort-status, .zhc-chart-container, .zhc-burndown-chart__stats,
+.zhc-chart-container__footer, .zhc-chart-legend__labels, .zhc-issues-list,
+.zhc-tabs__nav-item, .zhc-menu-bar-item--search-bar, .zhc-menu-bar-item,
+.zh-collapse-manager-container--isExpanded .discussion-item:last-child,
+.zhc-selection-list__header, .zhc-sidebar-profile__item:hover {
+  border-color: #343434 !important;
+}
+.zhc-tooltip-action__content:before, .zhc-pr-issue-connector__info:before {
+  border-right-color: #343434 !important;
+}
+.popover.left .arrow {
+  border-left-color: #343434 !important;
+}
+.zhc-dependency-type-dropdown__control,
+.zhc-dependency-type-dropdown__list__item,
+.zhc-pipeline--add-placeholder .zhc-pipeline__head,
+.zhc-checkbox-toggle--is-active:before, .zhc-checkbox-toggle--is-active:after,
+.zhc-pipeline--add-placeholder .zhc-pipeline-header__main,
+.zhc-sidebar-nav-item__action:hover, .zhc-sidebar-nav-item__action--is-active,
+.zhc-sidebar:not(.zhc-sidebar--is-wide-screen):hover .zhc-sidebar__footer,
+.zhc-sidebar--is-wide-screen .zhc-sidebar__footer, .zhc-sidebar__footer-left {
+  border-color: #484848 !important;
+}
+/* text */
+.zhc-selection-list__header__text, .zhc-merge-repo-item__content,
+.zhc-repo-item, .zh-todolist-create:hover, .zh-todolist-name,
+.zh-epic-pipeline-selector.active .zh-epic-pipeline-selector-name,
+.zh-select-menu-title, .zhc-badge--issue-count, .zh-pipeline-badge,
+.zh-timeline-comment-header-text, .zh-epic-issue-header-title,
+.zh-select-menu-item .description, .zh-pipeline-badge, .zhc-issue-item__title,
+.zhc-item-table__cell__issue-number, .zhc-item-table__column-title,
+.zhc-selection-button__title--active-filter, .zhc-item-table__row,
+.zhc-selection-list__header, .zhc-issues-list-item__issue_number,
+.zh-discussion-item .zh-pipeline-is, .zh-discussion-item .zh-pipeline-was,
+.zh-discussion-item .zh-estimate-is, .zh-discussion-item .zh-estimate-was,
+.zh-discussion-item .zh-issue, .zh-discussion-item .zh-release,
+.zh-collapse-control, .zhc-sidebar-nav-item, .zhc-sidebar-profile,
+.zhc-sidebar-profile__name, .zhc-sidebar-profile__item {
+  color: #ccc !important;
+}
+.zh-sidebar-icon, .zh-icon-plus, .zh-icon-dash {
+  opacity: 1 !important;
+  filter: brightness(2) !important;
+}
+.zhc-dependency-issue-selector__issue-item-meta,
+.zhc-selection-item--is-active span, .zhc-btn--tint {
+  color: #fff !important;
+}
+.zhc-dependency .zhu-text-important, .zhc-dependency-banner,
+.zhc-dependency-type-dropdown__control, .zhc-dependency-type-dropdown__list,
+.zhc-selection-item--is-disabled, .zhc-issue-card__heading__main {
+  color: #c0c0c0 !important;
+}
+.zhc-click-text-item {
+  color: var(--base-color) !important;
+}
+/* ZenHub buttons */
+.zhc-toggle-button:not(.zhc-btn--minimal), .zhc-selection-button,
+.zh-todo-issue-dropdown .zh-split-button-icon, .zhc-btn--tint,
+.zh-split-button-right-side, .zhu-blankslate, .zh-reports .zhc-btn,
+.zhc-dependency-header__status__controls .zhc-btn,
+.zhc-issue-selector .zhc-btn {
+  background: linear-gradient(#282828, #181818) !important;
+  border-color: #383838 !important;
+}
+.zh-delete-epic-button {
+  background: #911 !important;
+  border-color: #383838 !important;
+}
+.zh-delete-epic-button:hover {
+  background: #b22 !important;
+  border-color: #b00 !important;
+}
+.zhc-toggle-button:not(.zhc-btn--minimal):hover,
+.zhc-selection-button:not(.zhc-toggleable--is-disabled):hover,
+.zhc-toggle-button--is-active, .zhc-selection-button__container--is-active,
+.zh-burndown .btn .octicon,
+.zh-todo-issue-dropdown.selected .zh-split-button-icon,
+.zh-board-menu-item .octicon, .zh-reports .btn .octicon,
+.zh-split-button-right-side:hover, .zh-split-button-icon:hover,
+.zhc-collapse-toggle--is-active:hover {
+  background: linear-gradient(#444, #333) !important;
+  border-color: #484848 !important;
+}
+.zhc-btn-gh--primary, .zhc-btn--action {
+  background: linear-gradient(#203522, #152715) !important;
+  border-color: #041 !important;
+}
+.zhc-btn.zhc-btn-gh--primary:hover {
+  background: linear-gradient(#407045, #305530) !important;
+  border-color: #083 !important;
+}
+/* popovers */
+.zhc-selection-list__header__text, .zhc-tooltip-action__content,
+.zh-select-menu-title, .popover, .zhc-board-settings__items__header,
+.zhc-selection-list__header {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+/* button tweaks */
+.zh-repo-switcher .select-menu-button {
+  padding: 1px 6px 2px 4px !important;
+}
+.zh-repo-switcher .select-menu-button:after {
+  vertical-align: 0 !important;
+}
+.zh-octicon-list-unordered {
+  height: 14px !important;
+}
+/* invert image */
+.zh-icon-circled-bolt, .zh-icon-bolt, .zh-octicon-x,
+a.zh-topbar-item.selected .zh-icon-zenhub {
+  filter: invert(40%) brightness(120%) !important;
+}
+.zhc-icon:not([class$="-red"]):not([class$="-white"]):not([class$="-light"]),
+.zhc-board-loading, .zhc-board-loading__message, .zh-octicon-list-unordered,
+.zh-octicon-pencil, .zh-octicon-inbox, .zh-octicon-plus, .zh-octicon-info,
+.zh-octicon-milestone, .zh-octicon-chevron-down, .zh-epic-creator-tab-icon,
+.zh-board-menu-item .zh-octicon-grey, .zh-octicon-search,
+.zhc-burndown-chart__placeholder, .zhc-selection-button__container:after,
+.zhc-icon--grey-light {
+  filter: invert(100%) !important;
+}
+/* move expanded zenhub board toolbar when octotree exists
+ * see https://github.com/buunguyen/octotree/issues/242 */
+html.octotree:not(.octotree-show) .zhc-board--is-fullscreen .zhc-menu-bar {
+  margin-left: 30px;
+  margin-top: -8px;
+}

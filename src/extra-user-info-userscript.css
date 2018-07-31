@@ -1,0 +1,5 @@
+/* https://github.com/jerone/UserScripts/tree/master/Github_User_Info - see issue 481 */
+.GithubUserInfo, .GithubUserInfo > div {
+  background: #202020 !important;
+  border-color: #343434 !important;
+}

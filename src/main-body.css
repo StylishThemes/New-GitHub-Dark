@@ -1,0 +1,11 @@
+body {
+  background-color: #222 !important;
+  background-image: /*[[bg-choice]]*/ !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-attachment: /*[[bg-attachment]]*/ !important;
+  /*[[bg-options]]*/
+}
+a, a:visited, a:hover {
+  color: var(--base-color) !important;
+}

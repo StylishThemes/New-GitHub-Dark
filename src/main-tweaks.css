@@ -1,0 +1,107 @@
+/* Tweaks - no color style changes here! */
+/* User time line firsts */
+img[src$="profile-joined-github.png"] {
+  padding-bottom: 20px !important;
+}
+table.pricing-table td:first-child {
+  text-indent: 9px;
+}
+/* User profile: Make the border not cross into the years buttons */
+.profile-timeline-month-heading:after {
+  width: calc(100% - 94px) !important;
+}
+/* fix borders in repo tag editor */
+.topic-tag-action .add-topic-button, .topic-tag-action .remove-topic-button {
+  width: auto !important;
+}
+.markdown-body a:hover * {
+  text-decoration: inherit !important;
+}
+#message-list .pagination a:hover, .link-mono:hover, .text-mono:hover {
+  text-decoration: underline !important;
+}
+.branch-infobar {
+  font-weight: normal !important;
+}
+.merge-pr-more-commits, .profile-timeline-month-heading {
+  padding: 2px 5px !important;
+}
+input.tree-finder-input, input.tree-finder-input:focus,
+input.js-site-search-focus {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.markdown-body a:not([href]), .markdown-body a code {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.markdown-body strike code, .markdown-body strike tt {
+  text-decoration: line-through !important;
+}
+#com hr {
+  border-bottom: none !important;
+}
+
+/* border-radius */
+#wrapper, #your-repos-filter, .topsearch ul.nav, .merge-pr-more-commits,
+.oauth-org-access-details .boxed-group-list > li.on,
+.gist-snippet .file-box .highlight {
+  border-radius: 3px !important;
+}
+/* add rounded borders on bottom - issue caused by GitHub bugs */
+body[data-render-url], .render-viewer, .comment-content,
+.gist .gist-file .gist-meta, .more-repos {
+  border-radius: 0 0 3px 3px !important;
+}
+.dashboard-tabs a, .search-filters {
+  border-radius: 0 !important;
+}
+.discussion-topic-header, .previewable-comment-form .tabnav {
+  border-radius: 3px 3px 0 0 !important;
+}
+.topic-tag {
+  padding: .2em .9em !important;
+}
+
+.gist .gist-file .gist-data .line-number {
+  line-height: 19px !important;
+}
+
+/* File listings - fix date truncation */
+table.files td.age .css-truncate {
+  max-width: none !important;
+}
+
+.jump-to-suggestions [aria-selected="true"] .jump-to-suggestion-name.css-truncate-target {
+  width: 41% !important;
+}
+
+.reponav-item, .pagehead-tabs-item {
+  position: relative !important;
+  top: 2px !important;
+}
+
+.search .minibutton span {
+  background-position: center -95px !important;
+}
+/* history expand buttons */
+.commit .minibutton.expander-minibutton span {
+  background-position: 50% -45px !important;
+}
+.commit.open .minibutton.expander-minibutton span {
+  background-position: 50% -145px !important;
+}
+
+/* language stats bar */
+.repository-lang-stats-graph {
+  height: 9px !important;
+}
+.mini-icon-windows:before {
+  background-position: -18px 0 !important;
+}
+/* Repo list (https://github.com/{user}?tab=repositories) */
+.repo-list-item p, .repo-list-item .repo-list-stats, .review-thread-reply {
+  position: relative !important;
+  z-index: 1 !important;
+}

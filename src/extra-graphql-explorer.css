@@ -1,0 +1,33 @@
+/* GraphQL API - https://developer.github.com/v4/explorer/ */
+iframe#graphiql, .graphiql-ide, .graphiql-container .topBar,
+.graphiql-container .docExplorerShow,
+.graphiql-container .variable-editor-title, .graphiql-container .resultWrap {
+  background: #222 !important;
+  border-color: #343434 !important;
+}
+.graphiql-ide.signed-out:after {
+  background: #000 !important;
+}
+.graphiql-container, .prereceive-feedback-heading, .State--red code a {
+  color: #ddd !important;
+}
+.graphiql-container .docExplorerShow:before {
+  border-left-color: var(--base-color) !important;
+  border-top-color: var(--base-color) !important;
+}
+.graphiql-container .toolbar-button, .graphiql-container .execute-button {
+  background: linear-gradient(#303030, #282828) !important;
+  border-color: #484848 !important;
+  box-shadow: none !important;
+  color: #ddd !important;
+}
+.graphiql-container .toolbar-button:active,
+.graphiql-container .execute-button:active {
+  background: #444 !important;
+}
+.graphiql-container .CodeMirror-foldmarker {
+  background: var(--base-color) !important;
+}
+.graphiql-container .execute-button svg {
+  fill: currentColor !important;
+}

@@ -1,0 +1,42 @@
+.blog-aside {
+  position: sticky !important;
+  position: -webkit-sticky !important;
+  top: 8px !important;
+}
+@supports (position: sticky) or (position: -webkit-sticky) {
+  .pull-request-tab-content .diff-view .file-header {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 40px !important;
+    z-index: 6 !important;
+  }
+  .pull-request-tab-content .file-header {
+    height: 32px !important;
+    padding: 1px 10px !important;
+  }
+  .pull-request-tab-content .diff-view .file-actions,
+  .pull-request-tab-content .diff-view .file-info {
+    margin-top: -1px !important;
+  }
+}
+
+/* PR toolbar tweaks */
+.pr-toolbar.is-stuck {
+  pointer-events: none !important;
+}
+.pr-toolbar.is-stuck+.pr-toolbar-shadow {
+  background: #181818 !important;
+  top: 0 !important;
+  height: 40px !important;
+  border-bottom: 1px solid #343434 !important;
+}
+
+.diffbar {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.is-stuck .diffbar {
+  background: #181818 !important;
+  height: 2.5em;
+  pointer-events: all !important;
+}

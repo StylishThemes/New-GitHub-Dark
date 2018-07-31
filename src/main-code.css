@@ -1,0 +1,62 @@
+/* custom code font */
+pre, code, tt, kbd:not(.badmono), samp, .blob-code, .file-data pre, .line-data,
+#gist-form .file .input textarea, .blob-code-inner {
+  font-family: "/*[[font-choice]]*/", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}
+code {
+  overflow: visible !important;
+}
+.markdown-body pre code, .markdown-body pre tt {
+  padding: .2em 0 !important;
+  border: none !important;
+}
+.markdown-body code:before, .markdown-body code:after,
+.markdown-body tt:before, .markdown-body tt:after,
+.markdown-body pre code:before, .markdown-body pre code:after,
+.markdown-body pre tt:before, .markdown-body pre tt:after,
+img[src$="/notices/context_button.png"] {
+  display: none !important;
+}
+/*[[tab-size]]*/
+
+/* custom hover highlight in code and diffs */
+.highlight tr:hover .blob-num:not(.non-expandable) {
+  color: #e2e2e2 !important;
+}
+.diff-table tr:hover > pre,
+.highlight:not(.lines) tr:not(.inline-comments):hover td.selected-line.blob-num:not(.line-age),
+.highlight:not(.lines) tr:not(.inline-comments):hover td.selected-line.blob-code:not(.line-age),
+.highlight:not(.lines) tr:not(.inline-comments):hover td:not(.line-age) {
+  background: rgba(78, 78, 78, .33) !important;
+}
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-num-addition:not(.line-age),
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-code-addition:not(.line-age) {
+  background: #103810 !important;
+}
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-num-deletion:not(.line-age),
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-code-deletion:not(.line-age) {
+  background: #481010 !important;
+}
+/* custom hover highlight end */
+.prose-diff > .markdown-body th.changed,
+.prose-diff > .markdown-body td.changed {
+  background: #282818 !important;
+}
+.blob-code-addition .x, .highlight .blob-code-addition .x {
+  background: #252 !important;
+  color: #eee !important;
+}
+.blob-code-deletion .x, .highlight .blob-code-deletion .x {
+  background: #622 !important;
+  color: #eee !important;
+}
+/* git diff line numbers (med green) */
+.gi .diff-line-num, .gi .diff-line-code, .gi .diff-line-pre {
+  background: #020 !important;
+  border-color: #040 !important;
+}
+/* git diff line deletions (med red) */
+.gd .diff-line-num, .highlight .err, .gd .diff-line-code, .gd .diff-line-pre {
+  background: #300 !important;
+  border-color: #500 !important;
+}

@@ -1,0 +1,8 @@
+/* Refined GitHub - https://github.com/sindresorhus/refined-github - see issue 540 */
+.refined-github-diff-signs .blob-code-addition:before,
+.refined-github-diff-signs .blob-code-deletion:before {
+  color: #7b7b7b !important;
+}
+.repohead h1 .rgh-ci-link .octicon {
+  color: inherit !important;
+}

@@ -1,0 +1,127 @@
+.progress-bar.anim-grow-x, .dev-hero, .header-search-key-slash,
+input[src$="with-facebook.png"] {
+  filter: brightness(75%) !important;
+}
+.header-search-key-slash {
+  filter: grayscale(100%) contrast(1.5) !important;
+}
+/* invert (rgb) */
+#header .logo, img[src="/images/logo@2x.png"], .site-logo a,
+.github-jobs-promotion a.jobs-logo strong, iframe[src*="polldaddy.com"],
+.jstree-node:not(.jstree-leaf) > .jstree-icon.jstree-ocl,
+.octotree_toggle .loader, .swipe .swipe-frame .swipe-bar .top-handle,
+.swipe .swipe-frame .swipe-bar .bottom-handle,
+.onion-skin .controls .transparent, .onion-skin .controls .opaque,
+.onion-skin .controls .slider .slider-track,
+.onion-skin .controls .slider .slider-track .dragger, .leaflet-control-zoom a,
+.leaflet-control-attribution.leaflet-compact-attribution:after,
+img[src$="favicons.githubusercontent.com/github.com"],
+img[src$="favicons.githubusercontent.com/gist.github.com"],
+img[src$="invertocat.png"], .ghd-invert, .render-shell img.math,
+#footer .github img, img[data-canonical-src^="https://codecov.io"],
+#com span.octicon {
+  filter: invert(100%) hue-rotate(180deg) !important;
+}
+/* invert network graph; gh-polls (https://github.com/apex/gh-polls) */
+div#network.network > div > canvas, img[alt="FOSSA Status"],
+img[data-canonical-src*="prod/timeseries/"],
+a[href$="vote"] img[data-canonical-src*="/poll/"] {
+  filter: invert(90%) hue-rotate(180deg) contrast(90%) !important;
+}
+/* invert problematic emoji */
+/* images */
+[alt=":soon:"], [alt=":on:"], [alt=":end:"], [alt=":heavy_dollar_sign:"],
+[alt=":registered:"], [alt=":tm:"], [alt=":heavy_multiplication_x:"],
+[alt=":heavy_plus_sign:"], [alt=":heavy_minus_sign:"],
+[alt=":heavy_division_sign:"], [alt=":heavy_check_mark:"],
+[alt=":arrows_clockwise:"], [alt=":wavy_dash:"], [alt=":curly_loop:"],
+[alt=":copyright:"], [alt=":currency_exchange:"], [alt=":top:"],
+[alt=":back:"], [alt=":zzz:"], [alt=":notes:"], [alt=":musical_score:"],
+[alt=":black_large_square:"], [alt=":black_medium_small_square:"],
+[alt=":ant:"], [alt=":musical_note:"], [alt=":loop:"], [alt=":feet:"],
+[alt=":paw_prints:"],
+/* unicode */
+/* some emoji don't need to be inverted on Windows */
+/* from https://github.com/Dunedan/mbp-2016-linux on Windows*/
+/* <g-emoji alias="heavy_check_mark"
+  fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png"
+  ios-version="6.0">✔️</g-emoji> */
+[alias="soon"], [alias="on"],
+[alias="end"], [alias="heavy_dollar_sign"], [alias="registered"], [alias="tm"],
+[alias="heavy_multiplication_x"], [alias="heavy_plus_sign"],
+[alias="heavy_minus_sign"], [alias="heavy_division_sign"],
+[alias="arrows_clockwise"], [alias="wavy_dash"],
+[alias="curly_loop"], [alias="copyright"], [alias="currency_exchange"],
+[alias="top"], [alias="back"], [alias="zzz"], [alias="notes"],
+[alias="musical_score"], [alias="black_large_square"],
+[alias="black_medium_small_square"], [alias="ant"], [alias="musical_note"],
+[alias="loop"], [alias="feet"], [alias="paw_prints"] {
+  filter: invert(100%) hue-rotate(180deg) brightness(80%) !important;
+  background: transparent !important;
+}
+/* Invert problematic emoji fallback images used on Windows */
+/* use tools/unicode-gen.js to generate */
+g-emoji[fallback-src$="2795.png"], g-emoji[fallback-src$="2796.png"],
+g-emoji[fallback-src$="2797.png"], g-emoji[fallback-src$="27b0.png"],
+g-emoji[fallback-src$="2b1b.png"], g-emoji[fallback-src$="25fe.png"],
+g-emoji[fallback-src$="1f3b6.png"], g-emoji[fallback-src$="1f3bc.png"],
+g-emoji[fallback-src$="1f4b1.png"], g-emoji[fallback-src$="1f4b2.png"],
+g-emoji[fallback-src$="1f503.png"], g-emoji[fallback-src$="1f519.png"],
+g-emoji[fallback-src$="1f51a.png"], g-emoji[fallback-src$="1f51b.png"],
+g-emoji[fallback-src$="1f51c.png"], g-emoji[fallback-src$="1f51d.png"],
+g-emoji[fallback-src$="1f3b5.png"], g-emoji[fallback-src$="27bf.png"],
+g-emoji[fallback-src$="1f43e.png"], g-emoji[fallback-src$="1f43e.png"],
+img[src*="resources-logo"], svg.IconNav-img,
+/* https://github.com/ten */
+.container-xl[id] svg,
+body.logged-out .col-md-7 svg {
+  filter: invert(83%) !important;
+}
+.container-xl[id] img {
+  z-index: 100 !important;
+}
+/* Exclude problematic non-emojis from Apple's emoji font on macOS */
+/* use tools/unicode-gen.js to generate. */
+@font-face {
+  font-family: "Apple Color Emoji";
+  src: local("Apple Color Emoji");
+  unicode-range: U+00000-000A8,U+000AA-000AD,U+000AF-02121,U+02123-025A9,
+                 U+025AB-025FB,U+025FD-025FD,U+025FF-0265F,U+02661-02662,
+                 U+02664-02713,U+02715-02715,U+02717-0302F,U+03031-10FFFF;
+}
+/* GeoJSON maps */
+/* https://github.com/benbalter/dc-maps/blob/master/maps/embassies.geojson */
+.leaflet-tile-container img {
+  filter: invert(100%) hue-rotate(180deg) brightness(150%) !important;
+}
+.leaflet-marker-pane img, .gundamcat {
+  filter: brightness(.8) !important;
+}
+
+/* invert #fff to #181818 */
+/* https://github.com/sujitpal/statlearning-notebooks/blob/master/src/chapter2.ipynb */
+.output_area img, .project-preview-img img, img[src$="bg-callout.svg"],
+img[data-canonical-src*="saucelabs.com/browser-matrix"],
+img[src*="images/modules/checks"], img[src$="profile-first-pr.png"],
+img[src$="profile-joined-github.png"], img[src$="profile-first-repo.png"],
+img[src$="profile-first-issue.png"], .github-jobs-logo strong {
+  filter: invert(90.5%) hue-rotate(180deg) saturate(200%) !important;
+}
+/* workaround filter creating a stacking context */
+.contribution-first-issue, .contribution-first-pull-request,
+.contribution-first-repository {
+  opacity: .999 !important;
+}
+/* brighten language colors */
+.language-color {
+  filter: brightness(150%) !important;
+}
+
+.participation-graph svg {
+  background: transparent !important;
+  opacity: .1 !important;
+  z-index: 0 !important;
+}
+.inbox-zero-octocat, .network-graph-container, img.TenYears-hero {
+  opacity: .6 !important;
+}

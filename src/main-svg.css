@@ -1,0 +1,73 @@
+/* svg styling */
+line, rect, path {
+  shape-rendering: geometricPrecision !important;
+}
+.js-graph-punchcard svg.viz {
+  background: transparent !important;
+  border: none !important;
+}
+.octicon, svg.octicon {
+  fill: currentColor !important;
+}
+.reorderable-task-lists .markdown-body .task-list-item .drag-handle {
+  fill: #c0c0c0 !important;
+}
+/* Firefox: Exclude text inside an svg loaded through an img, as seen in svg badges */
+*:not(img) text, circle.day {
+  fill: #ccc !important;
+}
+circle.day:hover {
+  fill: #fff !important;
+}
+path.js-diff-placeholder {
+  fill: #282828 !important;
+}
+#contributors-master svg.viz {
+  display: block !important;
+}
+g.dots circle {
+  stroke: #222 !important;
+}
+.traffic-graph g.axis:not(.views):not(.unique) g.tick:not(:nth-child(15)):not(:first-of-type) line,
+g.axis path, line.axis, svg:not(.vis) g.axis line {
+  stroke: #444 !important;
+}
+svg .path:not(.total):not(.unique):not(.views) {
+  stroke: #aaa !important;
+}
+#commit-activity-detail path.path,
+.traffic-graph g.x.axis g.tick:first-of-type line {
+  stroke: #1db34f !important;
+}
+.traffic-graph g.x.axis g.tick:nth-child(15) line {
+  stroke: #1d7fb3 !important;
+}
+svg.tick {
+  fill: #444 !important;
+}
+.features-branch-diagram path[stroke="#c6d9ed"],
+.features-branch-diagram path[stroke="#4182C4"] {
+  stroke: var(--base-color) !important;
+}
+.features-branch-diagram circle[fill="#4183c4"],
+.repo-list-stats a.issues:hover svg {
+  fill: var(--base-color) !important;
+}
+.features-branch-diagram circle[stroke="#ffffff"] {
+  stroke: #222 !important;
+}
+rect.map-background, .audit-log-map {
+  fill: #1e4062 !important;
+  background: #1e4062 !important;
+}
+path.land {
+  stroke: #17334f !important;
+}
+circle.audit-point {
+  fill: #742d14 !important;
+  stroke: #57210f !important;
+}
+.graphs .selection .selection {
+  fill: #888 !important;
+  stroke: #888 !important;
+}

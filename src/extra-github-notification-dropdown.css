@@ -1,0 +1,16 @@
+/* https://openuserjs.org/scripts/joeytwiddle/Github_Notifications_Dropdown - see issue 478 */
+.notifications-dropdown {
+  background: #202020 !important;
+  border: 1px solid #343434 !important;
+}
+a.notifications-dropdown-see-all {
+  background: #242424 !important;
+  color: var(--base-color) !important;
+}
+a.notifications-dropdown-see-all:hover {
+  background: var(--base-color) !important;
+  color: #e2e2e2 !important;
+}
+.notifications-dropdown-arrow {
+  border-bottom-color: #333 !important;
+}
